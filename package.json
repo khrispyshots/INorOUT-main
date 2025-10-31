@@ -56,6 +56,7 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build"
+                        "build": "vite build",
+                        "vercel-build": "npm run build && node ./scripts/copy-build-to-dist.js"
       }
 }
